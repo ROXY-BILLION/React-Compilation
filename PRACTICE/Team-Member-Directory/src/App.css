@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+.container{
+  background: aqua;
+  border-radius: 1rem;
+  padding: 20px 30px;
+  width: 50%;
+  height: 30%;
+  margin: 20px;
+}
+.Social-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
