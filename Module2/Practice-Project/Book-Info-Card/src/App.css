@@ -1,0 +1,40 @@
+.container{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#fefce8;
+}
+
+.book-card{
+  width:320px;
+  background:white;
+  padding:20px;
+  border-radius:20px;
+}
+
+.book-card img{
+  width:100%;
+  height:250px;
+  object-fit:cover;
+  border-radius:12px;
+}
+
+.author{
+  color:#ca8a04;
+  margin:10px 0;
+}
+
+.description{
+  margin:15px 0;
+  line-height:1.6;
+}
+
+button{
+  width:100%;
+  padding:12px;
+  border:none;
+  background:#ca8a04;
+  color:white;
+  border-radius:8px;
+}

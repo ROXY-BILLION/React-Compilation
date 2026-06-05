@@ -1,0 +1,46 @@
+.container{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#fff7ed;
+}
+
+.athlete-card{
+  width:350px;
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  text-align:center;
+}
+
+.profile-img{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  object-fit:cover;
+  border:5px solid orange;
+}
+
+.sport{
+  color:orange;
+  margin:15px 0;
+}
+
+.stats{
+  display:flex;
+  justify-content:space-around;
+  margin:25px 0;
+}
+
+.stats h3{
+  color:orange;
+}
+
+button{
+  padding:12px 20px;
+  border:none;
+  background:orange;
+  color:white;
+  border-radius:8px;
+}

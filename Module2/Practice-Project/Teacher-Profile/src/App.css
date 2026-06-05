@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eef2ff;
+}
+
+.teacher-card {
+  width: 450px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.teacher-card h1 {
+  margin-bottom: 10px;
+}
+
+.teacher-card h3 {
+  color: purple;
+  margin-bottom: 15px;
+}
+
+.teacher-card ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
