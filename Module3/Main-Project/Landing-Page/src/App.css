@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background: aqua;
+}
+/* Navbar */
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap:  400px;
+  border: 3px solid white;
+  border-radius: 1rem;
+  padding: 20px;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}  
+.nav-links a{
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.nav-links a:hover{
+  background: rgb(37, 37, 39);
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 1rem;
+}
+/* Hero */
+#hero{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+#hero h1{
+  text-shadow: 2px 3px 4px rgb(125, 109, 109);
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+#hero p{
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+#hero button{
+  padding: 10px;
+  border-radius: 1rem;
+  background: blue;
+  color: white;
+  font-size: 1rem;
+  border: none;
+}
+#hero button:hover{
+  background: rgb(28, 28, 31);
+  cursor: pointer;
+}
+/* Features */
+.features{
+  margin: 120px;
+  display: flex;
+  text-align: center;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  background: rgb(29, 29, 32);
+  border-radius: 1rem;
+  border: none;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card h2{
+  font-size: 2.5rem;
+  color: white;
+}
+.card p{
+  color: white;
+  font-size: 1.5rem;
+}
+/* Footer */
+.footer{
+  background: rgb(50, 50, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 2.5rem;
+  color: white;
+}
